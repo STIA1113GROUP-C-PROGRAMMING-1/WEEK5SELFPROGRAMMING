@@ -1,0 +1,17 @@
+Output 1
+Please enter your number : 
+1
+The number you enter is : 1
+The number is positive
+
+Output 2 
+Please enter your number : 
+-1
+The number you enter is : -1
+The number is negative
+
+Output 3
+Please enter your number : 
+0
+The number you enter is : 0
+The number is zero
