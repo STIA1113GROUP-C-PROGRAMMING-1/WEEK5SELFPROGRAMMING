@@ -1,0 +1,19 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Loan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int MIN_LEVEL=3000;
+		
+		System.out.println("Enter your income : ");
+		double income = sc.nextDouble();
+		System.out.println("Enter your age : ");
+		int age = sc.nextInt();
+		
+		if((income>MIN_LEVEL) && (age<50)) 
+			System.out.println("Can Apply Loan");
+	}
+
+}
