@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		double OVERDRAFT_PENALTY=35;
+		
+		System.out.println("Please enter your amount : ");
+		double amount=sc.nextDouble();
+		System.out.println("Please enter your balance : ");
+		double balance=sc.nextDouble();
+		
+	
+		if (amount<=balance) {
+			balance=balance-amount;
+			System.out.println("Acct new balance : " + balance);
+		}
+		
+		else {
+			balance = balance-OVERDRAFT_PENALTY;
+			System.out.println("TRANSACTION ARE NOT ALLOWED");
+		}
+
+	}
+
+}
