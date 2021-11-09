@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Balance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		double balance;
+		double amount;
+		
+		System.out.println("Please enter your balance : ");
+		balance=sc.nextDouble();
+		
+		System.out.println("Please enter your amount : ");
+		amount=sc.nextDouble();
+		
+		if(amount<=balance) {
+			balance=balance-amount;
+			System.out.println("The balance : " + balance);
+		}
+			
+			else {
+				System.out.println("Error");
+			}
+	}
+}
